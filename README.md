@@ -21,10 +21,14 @@ study.
   
 3. Transformation of the model into an API of your choice (Django or flask).
 -> we created an API on Django, with visual studio code.
--> to open the API, you have to run the code on a python terminal with the following code  : 
-    C:\Users\Desktop\Django ML\mysite> python manage.py runserver.
-    
-    This will launch an HTML website, where you will be abble to try our API.
+How to use the API ?
+- Open Visual Studio Code, and open the file "my site" 
+- open a new terminal command line
+- write this code on the terminal C:\Users\Desktop\Django ML\mysite> python manage.py runserver
+- you will obtain a link to a html website : http://127.0.0.1:8000/
+- copie and paste it to an internet navigator.
+
+- Now you can use our API ! You have to enter all the details asked, and our machine Learning model will predict if your compagny is  going to bankrupt or not !
  
 
 
